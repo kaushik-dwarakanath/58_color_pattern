@@ -1,7 +1,7 @@
 # Memory Color Pattern Repair Lab
 
 This project is a pattern recall memory game (Simon-style) using **Pygame**. It introduces students to finite state machines (`WATCH`, `PLAYER_TURN`, `GAME_OVER`), time-based sequence playback, index-matching input validation, and grid-based visual button feedback within an object-oriented codebase.
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## What's Provided
 
@@ -15,6 +15,7 @@ A working Memory Color Pattern game with:
 It has **one deliberate bug** and **three optional features** left as tasks to implement. You are expected to **analyze**, **interact with an AI assistant**, and **complete/fix** the game to make it fully functional and more interesting.
 
 ### **Use an LLM (e.g. ChatGPT or Claude) as your debugging and pair-programming partner for this lab.**
+
 ---
 
 ## Getting Started
@@ -35,7 +36,6 @@ python main.py
 ```
 
 **Controls:** Left-click colored pads to repeat the sequence. Press R to restart after Game Over.
-
 
 ## Tasks to Complete
 
@@ -61,11 +61,12 @@ Players currently have unlimited time to study the board between clicks. Introdu
 
 ## Expected Behavior
 
-- At the beginning of each round, the game displays the accumulated sequence step-by-step with illuminated button states.   
-- Each round strictly appends one new step rather than duplicating previous patterns.  
+- At the beginning of each round, the game displays the accumulated sequence step-by-step with illuminated button states.
+- Each round strictly appends one new step rather than duplicating previous patterns.
 - Left-clicking a pad illuminates it briefly and registers the player's guess.
 - Entering any incorrect button immediately triggers the Game Over screen.
 - Pressing R on the Game Over screen clears the sequence, score, and state back to round 1.
+
 ---
 
 ## Folder Structure
